@@ -16,7 +16,7 @@ public class ECommerce {
       try
       {
     	  System.out.println("Connecting to database");
-    	  Connection myConn=DriverManager.getConnection(jdbcUrl,userName,password);
+    	  Connection myConn=DriverManager.getConnection(jdbcUrl,userName,password) ;
     	 
     	  System.out.println("Connection successfull");
     	  
